@@ -1,4 +1,4 @@
-# include "hello.h"
+# include <stdio.h>
 
 /**
  * main - entry point
@@ -8,7 +8,13 @@
 int main(void)
 {
 	char str[] = "_putchar";
-	printf("%s", str);
-	printf("\n");
-	return 0;
+	int i = 0;
+	while (i < 9)
+	{
+		putchar(str[i]);
+		i++;
+	}
+	putchar('\n');
+	return (0);
+
 }

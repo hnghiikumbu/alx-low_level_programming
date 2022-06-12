@@ -6,13 +6,13 @@
  */
 void print_aplhabet(void)
 {
-	char l = "a";
+	char l = 'a';
 
-	while (l <= "z")
+	while (l <= 'z')
 	{
 		putchar(l);
 		l++;
 	}
 	
-	putchar("\n");
+	putchar('\n');
 }

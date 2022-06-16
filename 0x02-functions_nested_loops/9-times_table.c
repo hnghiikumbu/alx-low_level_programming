@@ -8,6 +8,7 @@ void times_table(void)
 	int a = 0;
 	int b;
 	int rep;
+
 	while  (a <= 9)
 	{
 		b = 0;
@@ -18,7 +19,7 @@ void times_table(void)
 			{
 				putchar('0' + rep);
 			}
-			else if( rep < 10)
+			else if ( rep < 10)
 			{
 				putchar(' ');
 				putchar('0' + rep);

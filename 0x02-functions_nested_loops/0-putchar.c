@@ -2,12 +2,12 @@
 
 /**
  * main - entry point
- *
- * Return: 0
+ * Description: print out _putchar followed by new line
+ * return: 0
  */
 int main(void)
 {
-	char c[] = "_putchar";
+	char c[] = '_putchar';
 	int i = 0;
 
 	while (i < 9)

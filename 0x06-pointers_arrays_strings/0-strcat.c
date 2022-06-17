@@ -1,20 +1,17 @@
 #include "main.h"
 /**
  *
- *  * *_strcat - concatenates two strings
+ * *_strcat - concatenates two strings
  *
- *   * @dest: pointer destination
+ * @dest: pointer destination
  *
- *    * @src: pointer source
+ * @src: pointer source
  *
- *     * Return: void
+ * Return: void
  *
- *     */
-
-
+ */
 
 char *_strcat(char *dest, char *src)
-
 {
 
 	int a = -1, i;
@@ -22,7 +19,6 @@ char *_strcat(char *dest, char *src)
 	for (i = 0; dest[i] != '\0'; i++)
 
 	;
-
 
 	do {
 
@@ -32,8 +28,5 @@ char *_strcat(char *dest, char *src)
 
 	} while (src[a] != '\0');
 
-
-
 	return (dest);
-
 }

@@ -20,9 +20,9 @@ char *cap_string(char *str)
 		if (i == 0)
 		{
 			flag = 1;
-		}
+       		 }
 		else
-		{
+		 {
 			for (ii = 0; sep[ii] != '\0'; ii++)
 			{
 														if (str[i - 1] == sep[ii])
@@ -31,14 +31,14 @@ char *cap_string(char *str)
 					break;
 				}
 			}
-		}
-		if (flag == 1)
-		{
+		 } 
+	 	 if (flag == 1)
+		 {
 			if (str[i] <= 'z' && str[i] >= 'a')
 			{
 				str[i] -= ('a' - 'A');
 			}
-		}
+		 }
 
 	}
 	return (str);

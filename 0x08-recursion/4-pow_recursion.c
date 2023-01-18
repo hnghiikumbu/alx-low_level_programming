@@ -1,7 +1,7 @@
 /**
  * _pow_recursion - a function that returns the power of @x by @y x^y
  *
-  Description: this method is good for speed, check this youtube video
+ * Description: this method is good for speed, check this youtube video
  *
  * https://youtu.be/wAyrtLAeWvI?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO
  *
